@@ -1,0 +1,280 @@
+Hello everyone and welcome to the structured series of hands
+on guided projects on data analysis with pandas.
+Pandas is a super powerful, fast, flexible and easy to use.
+Open source data analysis and manipulation tool.
+This guided project is the first of a series of multiple
+guided projects essentially it's a learning path that
+has been created for you to master data analysis with pandas.
+So I highly recommend that you guys take these guided
+projects in order.
+So a little bit about myself, my name is Ryan Ahmed and I
+will be your instructor for this guided project.
+I hold the masters of Applied Science and PhD degrees
+in Engineering from McMaster University in Ontario Canada.
+I love teaching and I've taught over quarter million students
+online from over 160 countries.
+Please note that this guided project is very practical
+and directly applicable to many industries such as banking,
+finance and tech industries as well.
+So you guys can add this project to your portfolio
+of projects which is essential for your next job interview.
+So for those of you who are new crime rhyme is an online
+platform for hands on projects creation.
+It will allow you to learn by doing so on the right hand side,
+you should see the recorded videos, you can pause the video
+at any time you want.
+And on the left hand side you will see rhymes virtual machine
+simply, it's a pre configured cloud desktop with all
+the software pre installed and ready for you to use.
+So you don't have to worry about any installations
+or dependency issues.
+Just go ahead.
+follow along and code with me.
+Please note that this project is a beginner level
+and it requires just basic python programming knowledge.
+Okay, so let's go ahead and get started.
+So you guys should be able to see right now our jupiter
+notebook entitled Pandas for data analysis and as I mentioned
+this is the part one of our learning path to master pandas
+for data analysis and I've also included a c s V file
+entitled crypto dot c S V.
+And that essentially contains our C s V data.
+So please go ahead and click on the jupiter notebook and that
+should simply open in u tab.
+And please note that inside this jupiter notebook, I've
+included everything you need.
+So I've included here all the different code scripts, all
+the different, many challenges and also the solutions
+for the many challenges.
+So let me walk you through the jupiter notebook.
+So basically I divided the first guided project into 10 tasks.
+So in test number one we will cover the introduction and also
+define the Panda series and what you guys see here is you
+should be able to see that all these cells here they look
+empty. Right, So what I'm gonna do is I'm gonna be coding
+these with you guys and I highly recommend that you guys code
+along with me and learn by doing and what you guys see as
+well is in every single task I've included in many challenge
+along the way.
+So I'm going to ask you to please pause the video and attempt
+to solve the many challenge on your own and then at the end
+you can compare your answers to the answer sheet that
+have included.
+So if you guys scroll to the bottom, you should be able
+to see the solution for all the different many challenges, so
+many challenges, one solution, many challenge to solution
+and so on.
+So this basically concludes the task one and then it tasked
+to we are we will learn how to define appendices with custom
+index and Task number three will define a panda series
+from a dictionary and then a task four will learn
+about pandas attributes And then we'll cover Pandas methods
+in task five.
+In Task six will learn how to import CSV.
+Data using Pandas And then in task seven we will learn
+about Pandas, built in functions In Task eight will learn how
+to sort Pandas series And then in task nine we will learn how
+to perform math operations on Panda series.
+And then finally in task then we will learn how to check kind
+of kind of search for a given element within a panda series.
+Okay, so let's go ahead and start with task number one.
+So as I mentioned in task one, we will learn how to define
+a panda series and we just learn the basics or fundamentals
+of pandas.
+All right, so let's go ahead and get started.
+So the first step is, well I wanted to import pandas.
+So to import pandas, all what you need to do is that you need
+to type here import pandas as P. D.
+Basically what we're going to do is that we are going
+to within the code instead of referring to pandas library
+every time with pandas, I'm just going to use the short name
+for it, which is gonna be P. D.
+If you press shift and enter that should execute the cell
+around the sun.
+The next step is I wanted to define a list and within that
+list I'm going to include a ticker symbols for all my
+favorite cryptocurrencies.
+So I'm going to say, well crypto _ List Equals two.
+You guys can call the list anything you want.
+And if you guys remember from basic python programming
+fundamentals to the finalist, you need to write a square
+bracket and then you specify the elements within the list.
+So I'm going to say well btc, which is the ticker symbol
+essentially for Bitcoin and then I'm going to add ripple that
+will be X. R. P.
+And the next one will be light coin will be ltc and then
+I'm going to add as well another two of my favorite coins
+and this will be A D.
+A. Or cardin.
+Oh and then the last one will be a Syrian or e th and then
+if you guys wanted to see what's in crypto lists, you press
+tab and that should auto complete for you.
+And then if you press shift and enter right now, here we go,
+you guys should be able to see the list that you just defined,
+including the five top cryptocurrencies of your choice.
+If you guys wanted to go ahead and check out the type
+or the data type of my crypto list, I can say, could you
+please show me the type of my crypto list?
+And if you press shift and enter, here we go, you guys
+should be able to see the data type is a list which makes
+complete sense.
+Please make sure that so far we actually haven't done
+any pandas yet, although we have done so far is we defined
+a list and we call that list simply crypt to underscore list.
+The next step that I wanted to show you guys is how to create
+a one dimensional panda series and basically think
+of a series as just one dimensional pandas object
+and we're going to show you guys that, you know,
+over the next couple of guided projects is that we're going
+to take it to the next level.
+And instead of defining one D series, I'm going to define
+multiple dimension, we call it data frame.
+But right now we're just getting started.
+So we're just going to be dealing with one dimensional data
+for now.
+So we're going to do is they are going to use what we call it.
+The pandas constructive method to create a series or a panda
+series from a python list.
+So let me show you.
+So what I'm gonna do is I'm going to say, well this is my
+first pandas series.
+So I'm gonna say crypto underscore series again.
+You guys can call it anything you want really.
+And in order to create a panda series from a python list.
+All what you need to do is that you need to say P. D.
+Which is stands for pandas dot and you're going to use
+serious constructive method to do that for me.
+Please note that the S here is upper case.
+You're gonna say Syria's, you're open parentheses and then
+you need to specify what type of data that you want.
+Well the data is going to be well my crypto and the school
+list and this is simply the hoops.
+This is simply the list that I have in here that have defined
+earlier in um in sulfur here, if you guys recalled okay.
+And if you guys wanted to check out what's encrypt too series
+right now underscore Syria's.
+If you press shift, enter here we go, congratulations.
+Now you guys have been able to create your first pandas
+series and we called it crypto series.
+Please note that this is simply a one dimensional um pandas
+series.
+And what you guys notice as well is that there has been
+a default numeric and disease that has been added in here.
+And please note as well that you know when it comes to pandas
+or python in general we appreciate the number zero.
+Like you will notice that the indices here starts from index
+zero and it goes 01234 and so on.
+So if you have five elements, the indices will start
+from zero up until four.
+Okay. All right.
+The next step is well let's go ahead and confirm the data
+type for my first panda series.
+So if you say type, please show me the type of my crypto
+series she can enter.
+You guys should be able to see that the data type here.
+It's pandas the core series, the series and that's great.
+That's actually confirmed what we have been discussing so far.
+The next point that I wanted to show you guys before we stop
+at many challenge number one is well, what if I wanted
+to define a panda series that contains numeric values, let's
+say crypto prices instead of let's say text data.
+So what you guys see here is we have been able to define our
+pandas series here but we only include the tax data right?
+Which is the data data type object.
+And what I could do as well as well.
+I can go ahead and define another pandas series
+but it contained maybe a bunch of numbers, bunch of numeric
+values.
+So let me show you how to define that.
+So I'm going to say crypto underscore crisis underscored
+Syria's equals two.
+I'm going to also use pandas constructive methods are gonna
+say pd dot please make sure that s is upper case.
+So I'm gonna say PV dot series.
+You open parentheses and you need to specify what's the data
+look like.
+So what you can do is that you can either define a list,
+a python list beforehand or you can well provided right away
+in one shot.
+So within the square bracket I can go ahead and define bunch
+of numbers may be the first price is 2000.
+The next one is 500.
+The next one is 2000 And then the next one is let's say
+20 and then finally let's say have 50 for example and I
+can go ahead and show my crypto prices serious.
+So I can say crypto prices series, you just shift and enter
+here we go.
+You guys should be able to see right now is I have been able
+to create a pandas series Containing just bunch of numbers
+and what you guys see as well as the data type of all
+the elements within my panda series is in 64 or into your
+64 which makes sense because here I defined essentially
+a bunch of numbers that are stored in 64 bits in memory.
+Okay, all right, so that's all I have for this task
+but before we conclude and as always in all these guided
+projects, I try to include a mini challenge in pretty much
+every single task.
+So now it's time for many challenge.
+Number one I want you guys to define a panda series.
+I'm going to call it my series and this will essentially
+contain your top three favorite stocks.
+I want you guys to confirm the data type of my series as well.
+So please go ahead, give it a shot, pause the video
+and I'll see you guys after the challenge.
+Alright, hope you guys were able to figure out the challenge.
+What I asked you guys to do is to define a panda cedars
+That contains your top three favorite stocks.
+So what you could do is that you can define a list first I
+can say let's say my list equals two.
+You open square brackets and then you list all the elements
+in there.
+For example, I have let's say facebook.
+The next one will be let's say Apple.
+The third one will be let's say in video.
+For example you guys can go ahead and select any stocks
+you want.
+So please know that what we have done so far here is only
+we define a python list.
+This is a generic list.
+We haven't touched pandas at all yet.
+Well let's go ahead and create a panda series from my python.
+This to do that.
+I'm going to say my Okay, my underscored series.
+You quit too.
+I'm going to say pd dot series.
+I'm going to use the pandas dot serious constructive method.
+I need to specify the data, like how I'm going to create that
+series.
+I need to create it from something.
+Right? So I'm going to pass along the my list that I have
+in here.
+I'm just gonna pass it as is I can say my underscore list
+and then finally all I need to do is I need to show my list
+to make sure it actually works.
+My serious apologies.
+And if you press shift and enter right now, here we go.
+You guys have been able to successfully create a pandas
+series.
+I called it my series that contains the names of your
+three favorite stocks.
+What I asked you guys to do as well is I ask you to confirm
+the data type of my series.
+Well to do that.
+What I wanted to show you guys is how to insert a new cell.
+So to insert a new cell, you just go ahead on your keyboard
+and press a so if you press a you guys will see the new cell
+has been created and to check out with the data type, you can
+just say type and you can pass along my underscore series.
+People shift enter.
+Here we go.
+You will find the data type is Pandas, the core, the series,
+the series and it makes sense.
+And that's exactly what we are expecting.
+All right, okay.
+So that's all I have for task number one.
+I hope you guys enjoyed it.
+And task number two.
+Let's go ahead and define a Panda series with custom index
+instead.
+So please stay tuned.
+Best of luck, and I will see you guys in the next desk.
